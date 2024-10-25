@@ -1,0 +1,14 @@
+C:\Users\pc\source\repos\GroupManagementApp\GroupManagementApp\bin\Debug\net8.0\GroupManagementApp.exe
+C:\Users\pc\source\repos\GroupManagementApp\GroupManagementApp\bin\Debug\net8.0\GroupManagementApp.deps.json
+C:\Users\pc\source\repos\GroupManagementApp\GroupManagementApp\bin\Debug\net8.0\GroupManagementApp.runtimeconfig.json
+C:\Users\pc\source\repos\GroupManagementApp\GroupManagementApp\bin\Debug\net8.0\GroupManagementApp.dll
+C:\Users\pc\source\repos\GroupManagementApp\GroupManagementApp\bin\Debug\net8.0\GroupManagementApp.pdb
+C:\Users\pc\source\repos\GroupManagementApp\GroupManagementApp\obj\Debug\net8.0\GroupManagementApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\source\repos\GroupManagementApp\GroupManagementApp\obj\Debug\net8.0\GroupManagementApp.AssemblyInfoInputs.cache
+C:\Users\pc\source\repos\GroupManagementApp\GroupManagementApp\obj\Debug\net8.0\GroupManagementApp.AssemblyInfo.cs
+C:\Users\pc\source\repos\GroupManagementApp\GroupManagementApp\obj\Debug\net8.0\GroupManagementApp.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\GroupManagementApp\GroupManagementApp\obj\Debug\net8.0\GroupManagementApp.dll
+C:\Users\pc\source\repos\GroupManagementApp\GroupManagementApp\obj\Debug\net8.0\refint\GroupManagementApp.dll
+C:\Users\pc\source\repos\GroupManagementApp\GroupManagementApp\obj\Debug\net8.0\GroupManagementApp.pdb
+C:\Users\pc\source\repos\GroupManagementApp\GroupManagementApp\obj\Debug\net8.0\GroupManagementApp.genruntimeconfig.cache
+C:\Users\pc\source\repos\GroupManagementApp\GroupManagementApp\obj\Debug\net8.0\ref\GroupManagementApp.dll
