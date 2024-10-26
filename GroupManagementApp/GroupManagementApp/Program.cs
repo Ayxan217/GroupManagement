@@ -25,7 +25,7 @@ namespace GroupManagementApp
                     case "3":
                         groupService.EditGroup();
                         break;
-
+                    
                     case"5":
                         studentService.ShowStudents();
                         break;

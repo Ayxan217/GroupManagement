@@ -10,15 +10,17 @@ using System.Threading.Tasks;
 
 namespace GroupManagementApp.Services
 {
-    internal class StudentService
+    internal class StudentService:Student
     {
 
-        public static List<Student> Students = new();
+       
         public static List<Models.Group> Groups = new();
-        public static List<Student> Group = new();
+        public static List<Student> Students = new();
+       
+        
 
 
-         bool Type = false;
+         
         public void CreateStudent()
         {
             
@@ -61,7 +63,7 @@ namespace GroupManagementApp.Services
                     Type = Type
                 };
                
-                Students.Add(student);
+                
             
                 Console.WriteLine($"{name} {surname} yaradıldı ");
             Console.WriteLine("grup nomresini daxil edin");
@@ -72,7 +74,7 @@ namespace GroupManagementApp.Services
             {
                 if (group.Category == category && group.No == no)
                 {
-                    Group.Add(student);
+                    Students.Add(student);
                     Console.WriteLine($"{student.Name} {student.Surname} qrupa elave olundu");
                 }
             }

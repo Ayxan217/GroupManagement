@@ -107,7 +107,7 @@ namespace GroupManagementApp.Services
                         Console.WriteLine($"{CategoryEnum.Programming} {item.Category}{item.No} Limit: {item.Limit} onlinedir:{onlineStatus}");
                         break;
                     case "d":
-                        Console.WriteLine($"{CategoryEnum.Desing} {item.Category}{item.No} Limit: {item.Limit} onlinedir: {onlineStatus}");
+                        Console.WriteLine($"{CategoryEnum.Desing} {item.Category}{item.No} Limit: {item.Limit} onlinedir: {onlineStatus} telebeler:{item.Students.Count}");
                         break;
                     case "sa":
                         Console.WriteLine($"{CategoryEnum.SystemAdmistration} {item.Category}{item.No} Limit: {item.Limit} onlinedir: {onlineStatus}");
