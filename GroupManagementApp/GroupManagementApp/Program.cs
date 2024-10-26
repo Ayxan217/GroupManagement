@@ -15,22 +15,25 @@ namespace GroupManagementApp
                 StudentService studentService = new StudentService();
                 switch (answer) {
                     case "1":
-                        
                         groupService.CreateGroup();
-                        
-                        break;
+                         break;
+
                     case "2":
                         groupService.ShowGroups();
                         break;
-                        case "3":
+
+                    case "3":
                         groupService.EditGroup();
                         break;
-                    case "5":
+
+                    case"5":
                         studentService.ShowStudents();
                         break;
-                    case"6":
+
+                    case "6":
                         studentService.CreateStudent();
                         break;
+                       
                     case "0":
                         break;
                 }

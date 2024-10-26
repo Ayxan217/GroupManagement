@@ -5,30 +5,32 @@ using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Text.RegularExpressions;
+using System.Threading.Channels;
 using System.Threading.Tasks;
 
 namespace GroupManagementApp.Services
 {
-    internal class StudentService
+    internal class StudentService:Student
     {
 
-        public List<Student> Students = new List<Student>();
-      
+        public static List<Student> Students = new();
+     
+
         public void CreateStudent()
         {
             
             Console.WriteLine("tehsil zemaneti:(var/yoxdur)");
-            bool type = false;
-           Type: string insurance = Console.ReadLine().Trim().ToLower();
+            
+           type: string insurance = Console.ReadLine().Trim().ToLower();
             if(insurance !="var" && insurance != "yoxdur")
             {
                 Console.WriteLine("duzgun daxil edin");
-                goto Type;
+                goto type;
             }
             else { 
                 if(insurance == "var")
                 {
-                    type = true; 
+                    Type = true; 
                 }
                
             }
@@ -46,34 +48,38 @@ namespace GroupManagementApp.Services
                 Console.WriteLine("duzgun soyad daxil edin");
                 goto surname;
             }
+     
+            
             
 
-                Student student = new Student(name, surname,insurance);
+                Student student = new Student()
+                {
+                    Name = name,
+                    Surname = surname,
+                    Type = Type
+                };
                
                 Students.Add(student);
-            Console.WriteLine(Students.Count);
+            
                 Console.WriteLine($"{name} {surname} yaradıldı ");
 
 
 
         }
-
+       
         public void ShowStudents()
         {
             
             Console.WriteLine("Telebeler:");
-            Console.WriteLine(Students.Count);
-            if (Students.Count == 0) 
+            string type = Type ? "beli" : "xeyr";
+            foreach (var student in Students)
             {
-                Console.WriteLine("Telebe yoxdur.");
-                return; 
+                Console.WriteLine($"{student.Name} {student.Surname} zemantelidir? {type}");
             }
 
-            foreach (var item in Students)
-            {
-                Console.WriteLine($"{item.Name} {item.Surname}");
-            }
-           
+
+
+
         }
 
 

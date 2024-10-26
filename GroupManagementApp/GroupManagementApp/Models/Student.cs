@@ -7,7 +7,7 @@ using System.Xml.Linq;
 
 namespace GroupManagementApp.Models
 {
-    internal class Student
+    internal class Student:Group
     {
         
 
@@ -15,17 +15,10 @@ namespace GroupManagementApp.Models
         public string Surname { get; set; }
 
         public string GroupNo { get; set; }
-        public Student Group {  get; set; }
-        public string Type {  get; set; }
+        public Group Group {  get; set; }
+        public bool Type {  get; set; }
    
 
-        public Student(string name,string surname,string type)
-        {
-
-            Name = name;
-            Surname = surname;
-            Type = type;
-                    
-        }
+       
     }
 }
