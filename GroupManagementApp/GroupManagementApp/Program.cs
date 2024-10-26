@@ -25,7 +25,9 @@ namespace GroupManagementApp
                     case "3":
                         groupService.EditGroup();
                         break;
-                    
+                    case "4":
+                        studentService.AddStutentToGtoup();
+                        break;
                     case"5":
                         studentService.ShowStudents();
                         break;

@@ -13,9 +13,10 @@ namespace GroupManagementApp.Services
     internal class StudentService:Student
     {
 
-       
+
         public static List<Models.Group> Groups = new();
         public static List<Student> Students = new();
+        
        
         
 
@@ -54,8 +55,7 @@ namespace GroupManagementApp.Services
             }
 
 
-            
-
+        
                 Student student = new Student()
                 {
                     Name = name,
@@ -66,36 +66,40 @@ namespace GroupManagementApp.Services
                 
             
                 Console.WriteLine($"{name} {surname} yaradıldı ");
-            Console.WriteLine("grup nomresini daxil edin");
-            string no = Console.ReadLine();
-            Console.WriteLine("tipi daxil edin");
-            string category = Console.ReadLine();
-            foreach (var group in Groups)
-            {
-                if (group.Category == category && group.No == no)
-                {
+         
                     Students.Add(student);
-                    Console.WriteLine($"{student.Name} {student.Surname} qrupa elave olundu");
-                }
-            }
+            
+   
+             
 
         }
        
         public void ShowStudents()
         {
             
-            Console.WriteLine("Telebeler:");
             string type = Type ? "beli" : "xeyr";
-            foreach (var student in Students)
-            {
-                Console.WriteLine($"{student.Name} {student.Surname} zemantelidir? {type}");
-            }
+            if (Students.Count > 0) {
+            Console.WriteLine("Telebeler:");
+                foreach (var student in Students)
+                {
+                    Console.WriteLine($"{student.Name} {student.Surname} zemantelidir? {type}");
+                }
 
+            }
+            else
+            {
+                Console.WriteLine("telebe yoxdur");
+            }
 
 
 
         }
 
+        public void AddStutentToGtoup()
+        {
+            Console.WriteLine("this function is still in development stage :(");
+        }
+       
 
     }
 }

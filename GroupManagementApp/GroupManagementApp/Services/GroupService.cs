@@ -67,7 +67,7 @@ namespace GroupManagementApp.Services
             }
             if(online == "beli")
             {
-               
+               IsOnline = true;
             }
             if (IsOnline)
             {
@@ -95,6 +95,10 @@ namespace GroupManagementApp.Services
 
         }
 
+
+     
+       
+
         public void ShowGroups()
         {
             Console.WriteLine("Qruplar:");
@@ -104,13 +108,13 @@ namespace GroupManagementApp.Services
                 switch (item.Category)
                 {
                     case "p":
-                        Console.WriteLine($"{CategoryEnum.Programming} {item.Category}{item.No} Limit: {item.Limit} onlinedir:{onlineStatus}");
+                        Console.WriteLine($"{CategoryEnum.Programming} {item.Category}{item.No} Limit: {item.Limit} onlinedir:{onlineStatus}  ");
                         break;
                     case "d":
-                        Console.WriteLine($"{CategoryEnum.Desing} {item.Category}{item.No} Limit: {item.Limit} onlinedir: {onlineStatus} telebeler:{item.Students.Count}");
+                        Console.WriteLine($"{CategoryEnum.Desing} {item.Category}{item.No} Limit: {item.Limit} onlinedir: {onlineStatus} ");
                         break;
                     case "sa":
-                        Console.WriteLine($"{CategoryEnum.SystemAdmistration} {item.Category}{item.No} Limit: {item.Limit} onlinedir: {onlineStatus}");
+                        Console.WriteLine($"{CategoryEnum.SystemAdmistration} {item.Category}{item.No} Limit: {item.Limit} onlinedir: {onlineStatus} ");
                         break;
 
                 }
