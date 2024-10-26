@@ -10,17 +10,19 @@ using System.Threading.Tasks;
 
 namespace GroupManagementApp.Services
 {
-    internal class StudentService:Student
+    internal class StudentService
     {
 
         public static List<Student> Students = new();
-     
+        public static List<Models.Group> Groups = new();
+        public static List<Student> Group = new();
 
+
+         bool Type = false;
         public void CreateStudent()
         {
             
             Console.WriteLine("tehsil zemaneti:(var/yoxdur)");
-            
            type: string insurance = Console.ReadLine().Trim().ToLower();
             if(insurance !="var" && insurance != "yoxdur")
             {
@@ -48,8 +50,8 @@ namespace GroupManagementApp.Services
                 Console.WriteLine("duzgun soyad daxil edin");
                 goto surname;
             }
-     
-            
+
+
             
 
                 Student student = new Student()
@@ -62,8 +64,18 @@ namespace GroupManagementApp.Services
                 Students.Add(student);
             
                 Console.WriteLine($"{name} {surname} yaradıldı ");
-
-
+            Console.WriteLine("grup nomresini daxil edin");
+            string no = Console.ReadLine();
+            Console.WriteLine("tipi daxil edin");
+            string category = Console.ReadLine();
+            foreach (var group in Groups)
+            {
+                if (group.Category == category && group.No == no)
+                {
+                    Group.Add(student);
+                    Console.WriteLine($"{student.Name} {student.Surname} qrupa elave olundu");
+                }
+            }
 
         }
        

@@ -15,7 +15,7 @@ namespace GroupManagementApp.Models
         public string Surname { get; set; }
 
         public string GroupNo { get; set; }
-        public Group Group {  get; set; }
+        public List<Student> Group { get; set; }
         public bool Type {  get; set; }
    
 

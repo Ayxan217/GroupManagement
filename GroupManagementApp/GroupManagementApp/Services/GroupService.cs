@@ -30,6 +30,14 @@ namespace GroupManagementApp.Services
 
             Console.WriteLine("nomreni  daxil edin:");
         no: string no = Console.ReadLine();
+            foreach (var item in no)
+            {
+                if (!Char.IsDigit(item))
+                {
+                    Console.WriteLine("nomre ancaq reqemlerden ibaret olmalıdır");
+                    goto no;
+                }
+            }
             int intNo = Convert.ToInt32(no);
 
 
@@ -86,6 +94,7 @@ namespace GroupManagementApp.Services
 
 
         }
+
         public void ShowGroups()
         {
             Console.WriteLine("Qruplar:");
@@ -110,6 +119,9 @@ namespace GroupManagementApp.Services
 
         }
 
+
+
+      
         public void EditGroup()
         {
             Console.WriteLine("deyisiklik etmek istediyiniz qrup nomresini daxil edin: ");
@@ -126,7 +138,7 @@ namespace GroupManagementApp.Services
                         string newNum = Console.ReadLine();
                     item.No = newNum;
                        
-
+                   
                     
                 }
             }
