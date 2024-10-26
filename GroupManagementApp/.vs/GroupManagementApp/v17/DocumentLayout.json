@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\pc\\source\\repos\\GroupManagementApp\\",
+  "WorkspaceRootPath": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\GroupManagement\\GroupManagementApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C4DA848D-33EE-4230-9D76-CFD29EB21AE3}|GroupManagementApp\\GroupManagementApp.csproj|c:\\users\\pc\\source\\repos\\groupmanagementapp\\groupmanagementapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C4DA848D-33EE-4230-9D76-CFD29EB21AE3}|GroupManagementApp\\GroupManagementApp.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\groupmanagement\\groupmanagementapp\\groupmanagementapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4DA848D-33EE-4230-9D76-CFD29EB21AE3}|GroupManagementApp\\GroupManagementApp.csproj|solutionrelative:groupmanagementapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4DA848D-33EE-4230-9D76-CFD29EB21AE3}|GroupManagementApp\\GroupManagementApp.csproj|c:\\users\\pc\\source\\repos\\groupmanagementapp\\groupmanagementapp\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4DA848D-33EE-4230-9D76-CFD29EB21AE3}|GroupManagementApp\\GroupManagementApp.csproj|solutionrelative:groupmanagementapp\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4DA848D-33EE-4230-9D76-CFD29EB21AE3}|GroupManagementApp\\GroupManagementApp.csproj|c:\\users\\pc\\source\\repos\\groupmanagementapp\\groupmanagementapp\\services\\groupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C4DA848D-33EE-4230-9D76-CFD29EB21AE3}|GroupManagementApp\\GroupManagementApp.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\groupmanagement\\groupmanagementapp\\groupmanagementapp\\services\\groupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4DA848D-33EE-4230-9D76-CFD29EB21AE3}|GroupManagementApp\\GroupManagementApp.csproj|solutionrelative:groupmanagementapp\\services\\groupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4DA848D-33EE-4230-9D76-CFD29EB21AE3}|GroupManagementApp\\GroupManagementApp.csproj|c:\\users\\pc\\source\\repos\\groupmanagementapp\\groupmanagementapp\\enums\\categoryenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4DA848D-33EE-4230-9D76-CFD29EB21AE3}|GroupManagementApp\\GroupManagementApp.csproj|solutionrelative:groupmanagementapp\\enums\\categoryenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C4DA848D-33EE-4230-9D76-CFD29EB21AE3}|GroupManagementApp\\GroupManagementApp.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\groupmanagement\\groupmanagementapp\\groupmanagementapp\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4DA848D-33EE-4230-9D76-CFD29EB21AE3}|GroupManagementApp\\GroupManagementApp.csproj|solutionrelative:groupmanagementapp\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4DA848D-33EE-4230-9D76-CFD29EB21AE3}|GroupManagementApp\\GroupManagementApp.csproj|c:\\users\\pc\\source\\repos\\groupmanagementapp\\groupmanagementapp\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4DA848D-33EE-4230-9D76-CFD29EB21AE3}|GroupManagementApp\\GroupManagementApp.csproj|solutionrelative:groupmanagementapp\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C4DA848D-33EE-4230-9D76-CFD29EB21AE3}|GroupManagementApp\\GroupManagementApp.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\groupmanagement\\groupmanagementapp\\groupmanagementapp\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4DA848D-33EE-4230-9D76-CFD29EB21AE3}|GroupManagementApp\\GroupManagementApp.csproj|solutionrelative:groupmanagementapp\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4DA848D-33EE-4230-9D76-CFD29EB21AE3}|GroupManagementApp\\GroupManagementApp.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\groupmanagement\\groupmanagementapp\\groupmanagementapp\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4DA848D-33EE-4230-9D76-CFD29EB21AE3}|GroupManagementApp\\GroupManagementApp.csproj|solutionrelative:groupmanagementapp\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,58 +33,57 @@
           "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\GroupManagementApp\\GroupManagementApp\\Models\\Student.cs",
-              "RelativeDocumentMoniker": "GroupManagementApp\\Models\\Student.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\GroupManagementApp\\GroupManagementApp\\Models\\Student.cs",
-              "RelativeToolTip": "GroupManagementApp\\Models\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T12:25:43.414Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CategoryEnum.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\GroupManagementApp\\GroupManagementApp\\Enums\\CategoryEnum.cs",
-              "RelativeDocumentMoniker": "GroupManagementApp\\Enums\\CategoryEnum.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\GroupManagementApp\\GroupManagementApp\\Enums\\CategoryEnum.cs",
-              "RelativeToolTip": "GroupManagementApp\\Enums\\CategoryEnum.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\GroupManagement\\GroupManagementApp\\GroupManagementApp\\Services\\StudentService.cs",
+              "RelativeDocumentMoniker": "GroupManagementApp\\Services\\StudentService.cs",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\GroupManagement\\GroupManagementApp\\GroupManagementApp\\Services\\StudentService.cs",
+              "RelativeToolTip": "GroupManagementApp\\Services\\StudentService.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAD0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T14:11:23.875Z",
+              "WhenOpened": "2024-10-26T09:56:25.492Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\GroupManagement\\GroupManagementApp\\GroupManagementApp\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "GroupManagementApp\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\GroupManagement\\GroupManagementApp\\GroupManagementApp\\Models\\Student.cs",
+              "RelativeToolTip": "GroupManagementApp\\Models\\Student.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAcwBIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T08:26:02.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "GroupService.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\GroupManagementApp\\GroupManagementApp\\Services\\GroupService.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\GroupManagement\\GroupManagementApp\\GroupManagementApp\\Services\\GroupService.cs",
               "RelativeDocumentMoniker": "GroupManagementApp\\Services\\GroupService.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\GroupManagementApp\\GroupManagementApp\\Services\\GroupService.cs",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\GroupManagement\\GroupManagementApp\\GroupManagementApp\\Services\\GroupService.cs",
               "RelativeToolTip": "GroupManagementApp\\Services\\GroupService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAmwBoAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAA5wF0AAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-25T12:57:49.79Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Group.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\GroupManagementApp\\GroupManagementApp\\Models\\Group.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\GroupManagement\\GroupManagementApp\\GroupManagementApp\\Models\\Group.cs",
               "RelativeDocumentMoniker": "GroupManagementApp\\Models\\Group.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\GroupManagementApp\\GroupManagementApp\\Models\\Group.cs",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\GroupManagement\\GroupManagementApp\\GroupManagementApp\\Models\\Group.cs",
               "RelativeToolTip": "GroupManagementApp\\Models\\Group.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-25T12:25:33.845Z",
               "EditorCaption": ""
@@ -93,11 +92,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\GroupManagementApp\\GroupManagementApp\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\GroupManagement\\GroupManagementApp\\GroupManagementApp\\Program.cs",
               "RelativeDocumentMoniker": "GroupManagementApp\\Program.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\GroupManagementApp\\GroupManagementApp\\Program.cs",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\GroupManagement\\GroupManagementApp\\GroupManagementApp\\Program.cs",
               "RelativeToolTip": "GroupManagementApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAUwCAAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-25T11:26:11.706Z",
               "EditorCaption": ""

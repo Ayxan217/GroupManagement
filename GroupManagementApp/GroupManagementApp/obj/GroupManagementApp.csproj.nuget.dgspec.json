@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pc\\source\\repos\\GroupManagementApp\\GroupManagementApp\\GroupManagementApp.csproj": {}
+    "C:\\Users\\pc\\OneDrive\\Masaüstü\\GroupManagement\\GroupManagementApp\\GroupManagementApp\\GroupManagementApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pc\\source\\repos\\GroupManagementApp\\GroupManagementApp\\GroupManagementApp.csproj": {
+    "C:\\Users\\pc\\OneDrive\\Masaüstü\\GroupManagement\\GroupManagementApp\\GroupManagementApp\\GroupManagementApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pc\\source\\repos\\GroupManagementApp\\GroupManagementApp\\GroupManagementApp.csproj",
+        "projectUniqueName": "C:\\Users\\pc\\OneDrive\\Masaüstü\\GroupManagement\\GroupManagementApp\\GroupManagementApp\\GroupManagementApp.csproj",
         "projectName": "GroupManagementApp",
-        "projectPath": "C:\\Users\\pc\\source\\repos\\GroupManagementApp\\GroupManagementApp\\GroupManagementApp.csproj",
+        "projectPath": "C:\\Users\\pc\\OneDrive\\Masaüstü\\GroupManagement\\GroupManagementApp\\GroupManagementApp\\GroupManagementApp.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pc\\source\\repos\\GroupManagementApp\\GroupManagementApp\\obj\\",
+        "outputPath": "C:\\Users\\pc\\OneDrive\\Masaüstü\\GroupManagement\\GroupManagementApp\\GroupManagementApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
