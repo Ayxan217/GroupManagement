@@ -7,7 +7,7 @@ using System.Xml.Linq;
 
 namespace GroupManagementApp.Models
 {
-    internal class Student:Group
+    internal class Student
     {
         
 

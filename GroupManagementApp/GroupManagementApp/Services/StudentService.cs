@@ -156,9 +156,16 @@ namespace GroupManagementApp.Services
                 {
                     Group = g;
 
+                    if(GroupStudents.Count == 0)
+                    {
+                        Console.WriteLine("qrupda telebe yoxdur");
+                    }
+
+                    Console.WriteLine($" {Group.Category}{Group.No}\n");
+
                     foreach (var student in GroupStudents)
                     {
-                        Console.WriteLine($"{Group.Category}{Group.No}: {student.Name} {student.Surname} ");
+                        Console.WriteLine($" {student.Name} {student.Surname} ");
                     }
                     break;
 
