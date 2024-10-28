@@ -14,7 +14,6 @@ namespace GroupManagementApp.Models
         public string Category { get; set; }
         public bool IsOnline { get; set; }
       public  int Limit { get; set; }
-        public List<Student> Students { get; set; } 
         
 
         public Group( string category, string no)

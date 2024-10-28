@@ -24,6 +24,7 @@ namespace GroupManagementApp.Services
             if (category != "p" && category != "d" && category != "sa")
             {
                 Console.WriteLine("qrup tipini duzgun daxil edin");
+                
                 goto category;
 
             }
@@ -35,6 +36,7 @@ namespace GroupManagementApp.Services
                 if (!Char.IsDigit(item))
                 {
                     Console.WriteLine("nomre ancaq reqemlerden ibaret olmalıdır");
+                    
                     goto no;
                 }
             }
@@ -44,6 +46,7 @@ namespace GroupManagementApp.Services
             if (intNo < 99 || intNo > 999)
             {
                 Console.WriteLine("duzgun qrup nomresi daxil edin (100-999)");
+                
                 goto no;
             }
 
@@ -52,6 +55,7 @@ namespace GroupManagementApp.Services
             {
 
                 Console.WriteLine("bu qrup movcuddur basqa nomre daxil edin");
+                
                 goto no;
 
             }
